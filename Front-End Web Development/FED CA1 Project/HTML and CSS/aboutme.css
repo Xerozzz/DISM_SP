@@ -1,0 +1,162 @@
+/*About Me*/
+@charset "utf-8";
+
+/*Text Arrangements*/
+p.left{
+    text-align: left;
+    height:230px;
+    width: 75%;
+    margin:0;
+    box-sizing: border-box;
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+p#secondpara{
+    text-align: left;
+    height:200px;
+    width: 70%;
+    padding:10px 0;
+    clear:right;
+    float:left;
+    margin:0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+p#thirdpara{
+    text-align: left;
+    width: 55%;
+    margin:0;
+    padding:10px 0;
+    float:left;
+    height:200px;
+    box-sizing: border-box;
+}
+p#fourthpara{
+    text-align: left;
+    height:200px;
+    width: 75%;
+    margin:0;
+    padding:10px 0;
+    float:left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+/*Image Arrangements*/
+img#secondimage{
+    height:200px;
+    width: 30%;
+    padding:10px 0;
+    box-sizing: border-box;
+    float:left;
+}
+img.right{
+    height:230px;
+    width: 25%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float:left;
+}
+
+img#thirdimage{
+    height:200px;
+    width: 45%;
+    padding:10px 0;
+    box-sizing: border-box;
+    float:left;
+}
+img#fourthimage{
+    height:200px;
+    width: 25%;
+    padding:10px 0;
+    box-sizing: border-box;
+    float:left;
+}
+
+/*My Goals*/
+h3#Goals{
+    text-decoration: underline;
+}
+ul#futuregoals{
+    font-size: inherit;
+    margin:inherit;
+    font-family: inherit;
+    margin-bottom: 50px;
+    list-style: circle;
+    font-size: 85%;
+}
+ul#plannedgoals li{
+    padding-left: 20px;
+    font-size: 85%;
+}
+ul#plannedgoals{
+    padding-left: 150px;
+}
+
+/*Layouts*/
+#Homepagepic{
+    width:800px;
+    height: 600px;
+    float: left;
+    margin-bottom: 20px;
+    padding:0 20px;
+}
+#Homepagehead{
+    margin-bottom: 5px;
+    width:800px;
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+    padding:0 20px;
+}
+div#Homepagebody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:800px;
+    line-height: 150%;
+    font-size: 125%;
+    height:1500px;
+    padding:0 20px;
+    font-style: italic;
+}
+div#Goals{
+    width:800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+    line-height: 150%;
+    height: 1650px;
+    clear:both;
+    padding-top: 1px;
+    padding:0 20px;
+    font-style: italic;
+}
+
+/*First paragraph*/
+#main{
+    font-variant: small-caps;
+}
+/*Body Links*/
+div.containercontent a{
+    text-decoration: none;
+    color:rgb(115, 115, 115);
+}
+
+/*Photo Gallery*/
+.photo1{
+    width:800px;
+    height:400px;
+    display: block;
+}
+.photo2{
+    width:500px;
+    height:400px;
+    display:block;
+    margin-top:60px;
+}
+figure{
+    margin:0;
+}
+figure figcaption{
+    margin-bottom: 20px;
+    font-size: 70%;
+}

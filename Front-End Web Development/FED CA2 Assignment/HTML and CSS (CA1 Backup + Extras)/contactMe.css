@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/*Page Skeleton*/
+div#Homepagebody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:600px;
+    line-height: 150%;
+    font-size: 125%;
+    height:auto;
+    padding:0 20px;
+    font-style: italic;
+}
+#Homepagepic{
+    width:600px;
+    height: 500px;
+    margin-bottom: 20px;
+    padding:0 20px;
+}
+#Homepagehead{
+    margin-bottom: 5px;
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+    width:600px;
+    padding:0 20px;
+}
+#MainBody{
+    width:600px;
+    height:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 125%;
+    height:auto;
+    padding:0 20px;
+    font-style: italic;
+}
+/*Contact List*/
+div#contactlist{
+    width:100%;
+}
+#contacthead{
+    border-bottom: 1px solid lightgrey;
+}
+div#contactlist p{
+    text-align: left;
+    font-family:Helvetica, sans-serif;
+    color:lightslategray;
+    font-size:110%;
+    line-height: 25px;
+}
+div#contactlist p a{
+    font-size:80%;
+    text-decoration: none;
+    color:blue;
+}
+div#contactlist p a:hover{
+    color:darkblue;
+}
+div#contactlist p a:visited{
+    color: blue;
+}
+
+/*Form*/
+#form{
+    clear:both;
+    width:100%;
+    margin: 30px 0;
+    height: auto;
+}
+#form div{
+    font-size:80%
+}
+legend{
+    font-size: 95%
+}
+label {
+    color:rgb(89, 89, 89);
+    float: left;
+    clear: left;
+    width:40%;
+}
+input,textarea,select {
+    border:0;
+    float: left;
+    margin: 5px 0px;
+    padding:0;
+    width: 56%;
+ }
+ input:focus,select:focus,textarea:focus{
+    background-color: skyblue;
+ }
+textarea{
+    height:100px;
+ }
+
+#submit{
+    width:10%;
+    margin-top:20px;
+ }
+
+/*Flexible Layout*/
+form#form{
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-flow:row wrap;
+    flex-flow:row wrap;
+}
+form#form >fieldset{
+    border-radius:20px;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px;
+}
+
+/*Submit Button*/
+.button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    width:auto;
+}
+  
+.button:hover {background-color: #3e8e41}
+  
+.button:active {
+    background-color: #3e8e41;
+   
+}

@@ -1,0 +1,90 @@
+<!doctype HTML>
+<html>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <!--Declaring the site settings, setting keywords,title and linking to stylesheet-->
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>  
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Contact Me</title>
+        <meta name="keywords" content="personal,blog"/>
+        <link rel="icon" type="image/png" href="logo_transparent.png"/>
+        <!--Sets the viewport to fit the device's width-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Sans" rel="stylesheet">
+        <link href="contactMe.css" rel="stylesheet"/>
+    </head>
+    <body> <!--Navigation bar-->
+        <a id="scroll" href="#Homepagehead"><button id="myBtn" title="Go to top">Up</button></a>
+        <div class="containernav">
+            <div id="navv">
+                <a href="index.html"><img id="logo" src="logo_transparent.png" alt="Logo" align="middle"></a>
+                <ul id="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="achievement.html">Achievements</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <footer id="nav">
+                <p>Copyright &copy 2019 Lee Yi Terng</p>
+            </footer>
+        </div>
+        <div>
+            <div class="containercontent">
+                <h1 id="Homepagehead">Contact Me</h1>
+                <img src="Images/Band/ejvj.png" alt="EJ-VJ Performance" id="Homepagepic"/>
+                <!--Contact List-->
+                <div id="MainBody">
+                    <div id="contactlist">
+                        <h2 id="contacthead">Contact Me!</h2>
+                        <p>EMAIL<br>
+                        <a href="mailto:yiternglee02@gmail.com" target="_blank">yiternglee02@gmail.com</a></p>
+                        
+                        <p>ELSEWHERE<br>
+                        <a href="https://www.instagram.com/yi.terng/" target="_blank">Instagram</a> 
+                        <br><a href="https://www.facebook.com/PewDiePie/" target="_blank">Facebook</a>
+                        <br><a href="https://twitter.com/pewdiepie?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></p>
+
+                        <p>OR FILL UP THE FORM BELOW</p>
+                    <!--Form-->
+                    <form id="form" action="">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <div class="row">
+                                <label for="Name">Name:</label>
+                                <input type="text" placeholder="Enter your name" name="Name" id="BoxName"/>
+                            </div>
+                            <div class="row">
+                                <label for="email">Email:</label>
+                                <input type="email" placeholder="Enter your email eg. john@gmail.com" name="email" id="Boxemail"/>
+                            </div>
+                            <div class="row">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="Boxphone" name="phone" placeholder="Enter your phone number (+65 XXXX XXXX)"/>
+                            </div>
+                            <div class="row">
+                                <label for="comment">Comments/Feedback:</label>
+                                <textarea type="text" name="comment" id="Boxcomment"></textarea>
+                            </div>
+                            <div class="row">
+                                <label for="response">Preferred form of reply:</label>
+                                <select name="response" id="response">
+                                    <option value="whatsapp">Whatsapp</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Email">Email</option>
+                                    <option value="Any">Any</option>
+                                </select>
+                            </div>
+                            <input class="button" id="submit" type="submit" value="Submit" onclick="window.location.href = 'thankyou.html'" />
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
