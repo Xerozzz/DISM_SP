@@ -1,0 +1,3 @@
+Chicken Burger,4.50
+Fish Burger,3.50
+Beef Burger,6.00

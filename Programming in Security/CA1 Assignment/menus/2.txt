@@ -1,0 +1,3 @@
+Steamed Beef,2.50
+Steamed Pork,3.00
+Steamed Chicken,3.00

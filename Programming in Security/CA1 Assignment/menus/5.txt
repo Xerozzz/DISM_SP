@@ -1,0 +1,3 @@
+Chocolate Cake,5.00
+Mango Cake,4.50
+Luxury Cake,6.50
