@@ -1,1 +1,0 @@
-First of all, MD5 is broken - you can generate a collision, so MD5 should not be used for any security applications. SHA1 is not known to be broken and is believed to be secure. Other than that - yes, MD5 is faster but has 128-bit output, while SHA1 has 160-bit output.Jun 1, 2010

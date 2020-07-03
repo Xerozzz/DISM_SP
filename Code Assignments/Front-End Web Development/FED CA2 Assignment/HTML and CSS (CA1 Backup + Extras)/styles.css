@@ -1,0 +1,318 @@
+@charset "utf-8";
+/*
+
+Thank You Page
+
+*/
+#thankyoucontainer{
+    width:75%;
+    right:0;
+    position: fixed;
+    overflow-y: auto;
+}
+#thankyou {
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#thankyoulink{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    width:100%;
+    text-decoration: none;
+    font-size: 100%;    
+    color : red;
+}
+
+/* 
+
+CSS For Home page and nav bar
+
+*/
+html, body {
+    background-color:hsl(181, 59%, 47.5%);  
+  }
+html#Home {
+    overflow: hidden;
+}
+/* Logo */
+img#logo{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:100%;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+/*Home Page Containers*/
+.containernav{
+    border-right: 1px solid lightgrey;
+
+    height:100%;
+    background: linear-gradient(to bottom, #46cdcf 50%, #3d84a8 100%);
+}
+.containercontent{
+    width:75%;
+    right:0;
+    position: fixed;
+    overflow-y: auto;
+    height:100%
+}
+div.containercontent h1{
+    text-align: center;
+    font-size: 300%;
+    text-decoration: underline;
+}
+/*Navigation bar*/
+div.containernav div{
+    margin:0% 20%;
+
+}
+#navlist{
+    list-style: none;
+    margin-top: 0;
+    text-align: center;
+    padding:0;
+    line-height: 220%;
+    font-weight: bold;
+    margin-bottom: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navlist a{
+    text-decoration: none;
+    color:black;
+}
+#navlist a:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+footer#nav{
+    left:10px;
+    color:black;
+    padding: 0px 15px;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+}
+footer#nav p{
+    margin:10%;
+    font-size: 0.9em;
+}
+div#navv{
+    margin:2%;
+}
+
+/*Home Page Content*/
+div.containercontent ul#info li{
+    text-align: left;
+    color:black;
+    text-align : center;
+}
+div.containercontent ul#info{
+    list-style: none;
+    margin-top:20%;
+    font-family: "custom", 'Josefin Sans', sans-serif ; 
+}
+div.containercontent ul#info{
+    font-family: "custom"; 
+    font-size: 300%; 
+    font-style: normal; 
+    font-variant: normal; 
+    }
+div.containercontent ul#info li a{
+    border-bottom: 1px solid rgb(128, 128, 128);
+    color: rgb(128, 128, 128);    ;
+    text-decoration: none;
+    padding:0;
+}
+div.containercontent ul#info li a:hover{
+    color:darkblue;
+}
+
+/*Scroll Button*/
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 90px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*
+
+About Me Page CSS
+
+*/
+/*Text Arrangements*/
+p.left{
+    text-align: left;
+    height:230px;
+    width: 75%;
+    margin:0;
+    box-sizing: border-box;
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+p#secondpara{
+    text-align: left;
+    height:200px;
+    width: 70%;
+    padding:10px 0;
+    clear:right;
+    float:left;
+    margin:0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+p#thirdpara{
+    text-align: left;
+    width: 55%;
+    margin:0;
+    padding:10px 0;
+    float:left;
+    height:200px;
+    box-sizing: border-box;
+}
+p#fourthpara{
+    text-align: left;
+    height:200px;
+    width: 75%;
+    margin:0;
+    padding:10px 0;
+    float:left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+/*Image Arrangements*/
+img#secondimage{
+    height:200px;
+    width: 30%;
+    padding:10px 0;
+    box-sizing: border-box;
+    float:left;
+}
+img.right{
+    height:230px;
+    width: 25%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float:left;
+}
+
+img#thirdimage{
+    height:200px;
+    width: 45%;
+    padding:10px 0;
+    box-sizing: border-box;
+    float:left;
+}
+img#fourthimage{
+    height:200px;
+    width: 25%;
+    padding:10px 0;
+    box-sizing: border-box;
+    float:left;
+}
+
+/*My Goals*/
+h3#Goals{
+    text-decoration: underline;
+}
+ul#futuregoals{
+    font-size: inherit;
+    margin:inherit;
+    font-family: inherit;
+    margin-bottom: 50px;
+    list-style: circle;
+    font-size: 85%;
+}
+ul#plannedgoals li{
+    padding-left: 20px;
+    font-size: 85%;
+}
+ul#plannedgoals{
+    padding-left: 150px;
+}
+
+/*Layouts*/
+#Homepagepic{
+    width:800px;
+    height: 600px;
+    float: left;
+    margin-bottom: 20px;
+    padding:0 20px;
+}
+#Homepagehead{
+    margin-bottom: 5px;
+    width:800px;
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+    padding:0 20px;
+}
+div#Homepagebody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:800px;
+    line-height: 150%;
+    font-size: 125%;
+    height:1500px;
+    padding:0 20px;
+    font-style: italic;
+}
+div#Goals{
+    width:800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+    line-height: 150%;
+    height: 1650px;
+    clear:both;
+    padding-top: 1px;
+    padding:0 20px;
+    font-style: italic;
+}
+
+/*First paragraph*/
+#main{
+    font-variant: small-caps;
+}
+/*Body Links*/
+div.containercontent a{
+    text-decoration: none;
+    color:rgb(115, 115, 115);
+}
+
+/*Photo Gallery*/
+.photo1{
+    width:800px;
+    height:400px;
+    display: block;
+}
+.photo2{
+    width:500px;
+    height:400px;
+    display:block;
+    margin-top:60px;
+}
+figure{
+    margin:0;
+}
+figure figcaption{
+    margin-bottom: 20px;
+    font-size: 70%;
+}
+

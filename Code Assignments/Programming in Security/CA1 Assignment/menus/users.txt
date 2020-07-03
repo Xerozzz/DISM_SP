@@ -1,0 +1,6 @@
+admin,admin,0
+Peter,12345,30
+Mary,applepie,20
+Paul,paul,0
+Jeff,12345,0
+Paul,Paul,0

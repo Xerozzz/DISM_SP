@@ -1,0 +1,3 @@
+Prawn Noodles,4.00
+Fish Noodles Soup,3.50
+Fishball Noodles,1.50

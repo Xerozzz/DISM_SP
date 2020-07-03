@@ -8,5 +8,6 @@ Currently being updated on a semestral basis<br>Currently undergoing reorgnizati
 ## Changelog
 | Change| Date|
 | ------------- |:-------------:| 
-| Start of reorgnization of repo| 2nd July 2020|
+|Finish reorganization into new format with "Reports" and "Code"Folders  <br>Abddition of new reports|4th July 2020|
+| Start of reorganization of repo| 2nd July 2020|
 | Creation of this changelog| 2nd July 2020|
