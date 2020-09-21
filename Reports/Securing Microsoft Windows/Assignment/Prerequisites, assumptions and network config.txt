@@ -1,0 +1,39 @@
+Prerequisites-
+DC has AD Domain Services installed
+All members servers are connected to the domain of the DC
+
+Assumptions-
+All 3 systems are using WinServer
+
+Network Configuration-
+Domain Name: smw.assignment.com
+
+Server 1:
+Name 	Server1
+OS	WinServer 2016
+IP	192.168.72.10
+DNS	127.0.0.1
+Status	Domain Controller
+
+Server 2:
+Name 	Server2
+OS	WinServer 2012
+IP	192.168.72.11
+DNS	192.168.72.10
+Status	Member Server
+
+Server 3:
+Name 	Server3
+OS	WinServer 2016
+IP	192.168.72.12
+DNS	192.168.72.10
+Status	Member Server
+
+DFS Key Elements for Demo:
+- DFS role installation
+- Can access from any server and edit as needed
+- Servers listed as folder targets and Namespace servers
+- Replication Group used to replicate the content
+- As long as one server is alive, the files can still be accessed and updated
+- Adding, Removing or Updating on one server replicates on the rest
+- Offline editing and replication when online
